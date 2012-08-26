@@ -1,6 +1,5 @@
 class Heroku::Command::Sendgrid < Heroku::Command::Base
   def index
-    app  = app
     date = Hash.new
 
     args.each do |arg|
